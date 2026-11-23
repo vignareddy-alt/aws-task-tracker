@@ -1,0 +1,7 @@
+# Store text files with LF line endings so they work unchanged on the
+# Linux (EC2) server, regardless of the OS they were edited on.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary
